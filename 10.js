@@ -1,10 +1,11 @@
+// Not working code from me.
 function removeParentheses(s) {
   console.log("input:", s);
   let arr1 = [];
   let a = 0;
   let arr2 = [];
   let b = 0;
-  let c = "";
+  // let c = "";
   for (let i = 0; i < s.length; i++) {
     if (s[i] == "(") {
       arr1[a] = i;

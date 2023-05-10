@@ -1,3 +1,4 @@
+// Not working code from me.
 function removeParentheses(s) {
   let r = [];
   let p = 0;
@@ -20,5 +21,6 @@ function removeParentheses(s) {
     }
   }
   console.log("r:",r)
+  return r
 }
 console.log(removeParentheses("a(b(c))"))

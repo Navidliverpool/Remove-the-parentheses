@@ -27,8 +27,10 @@ function removeParentheses(s) {
   return res;
 }
 
-console.log(
-  removeParentheses(
-    "pYxrMaBCJDAGi(xD(mvF )div(C(dC bOgbXdUY)mub WUiwvfCh)VmjJ)qA(TWNcDIq(PiLv  yxtdUhcCMViscN)ETFMwget)EVvVu (c LfszGle(i(SYtlPWiP)ftIzMhuRqwgqHmoEyWRZWmD)X sg(UZhpkgKgOUM))(OsWDKJpCnxK)BfX ( ZUQBMh)HiS(bNphk X PFgNYPnh(YMYLrpaXNGF(rftlzkIyQocKGplL))(Gyduq rjOwkuSUyu(CDbOS)aQxMj(aXDsjFI)e)yQrg(BedWNcKCoJha ))CTP(ca(tKk NfhXKuXAjhfdRkhkKHZ)so dvQ(onrTkWbv(N)vRnYiKGTAnXWN)OQNDq)WubywVzf(L)nj XVhEIcdpDL(WEyGbgdupXottI)iKpvyrFIdtgVWVh"
-  )
-);
+console.log(removeParentheses("hello example (words(more words) here) something"))
+
+// console.log(
+//   removeParentheses(
+//     "pYxrMaBCJDAGi(xD(mvF )div(C(dC bOgbXdUY)mub WUiwvfCh)VmjJ)qA(TWNcDIq(PiLv  yxtdUhcCMViscN)ETFMwget)EVvVu (c LfszGle(i(SYtlPWiP)ftIzMhuRqwgqHmoEyWRZWmD)X sg(UZhpkgKgOUM))(OsWDKJpCnxK)BfX ( ZUQBMh)HiS(bNphk X PFgNYPnh(YMYLrpaXNGF(rftlzkIyQocKGplL))(Gyduq rjOwkuSUyu(CDbOS)aQxMj(aXDsjFI)e)yQrg(BedWNcKCoJha ))CTP(ca(tKk NfhXKuXAjhfdRkhkKHZ)so dvQ(onrTkWbv(N)vRnYiKGTAnXWN)OQNDq)WubywVzf(L)nj XVhEIcdpDL(WEyGbgdupXottI)iKpvyrFIdtgVWVh"
+//   )
+// );
